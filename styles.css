@@ -1,0 +1,44 @@
+body {
+    background: url("coffee-wood.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+hr {
+  background-color: brown;
+  border-color: brown;
+  width: 80%;
+}
+
+main {
+  background-color: rgb(222, 184, 135, 0.9);
+  border-radius: 3px;
+  max-width: 33em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+#events {
+  border-color: brown;
+  height: 170px;
+  width: 235px;
+}
+
+#events-div {
+  display: flex;
+  justify-content: center;
+}
